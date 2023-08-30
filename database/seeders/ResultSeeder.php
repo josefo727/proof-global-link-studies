@@ -30,7 +30,7 @@ class ResultSeeder extends Seeder
                             'student_id' => $i
                         ],
                         [
-                            'score' => Arr::random([null, 'A', 'B', 'C', 'D', 'E', 'F'])
+                            'score' => Arr::random([null, 'A', 'A', 'A', 'B', 'B', 'C', 'C', 'D', 'E', 'F'])
                         ]
                     );
             }
